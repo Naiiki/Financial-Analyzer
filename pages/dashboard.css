@@ -126,3 +126,34 @@ header {
     }
   }
 }
+.summary {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  .box {
+    width: 20%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      .icon-li {
+        display: flex;
+        width: 100%;
+        background: #9c0d0d;
+        .text {
+          width: 80%;
+        }
+        .icon {
+          width: 20%;
+          display: flex;
+          align-items: center;
+          background: #c16262;
+        }
+      }
+    }
+  }
+}
